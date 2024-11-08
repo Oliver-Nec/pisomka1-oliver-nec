@@ -55,7 +55,7 @@ const DropdownMenu: React.FC = () => {
           <MenuItem
             onClick={() => {
               signIn("google");
-              handleClose();
+              handleClose(); 
             }}
           >
             Login with Google
@@ -67,3 +67,7 @@ const DropdownMenu: React.FC = () => {
 };
 
 export default DropdownMenu;
+
+
+
+
